@@ -1,0 +1,17 @@
+{
+  "name": "reproduce-typescript-eslint-7750",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc --build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@tsconfig/strictest": "^2.0.2",
+    "@typescript-eslint/utils": "^6.7.5"
+  }
+}
