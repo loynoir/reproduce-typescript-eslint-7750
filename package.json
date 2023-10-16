@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsc --build"
+    "test": "node --version && tsc --build"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,7 @@
   "devDependencies": {
     "@tsconfig/node20": "^20.1.2",
     "@tsconfig/strictest": "^2.0.2",
-    "@typescript-eslint/utils": "^6.7.5"
+    "@typescript-eslint/utils": "^6.7.5",
+    "typescript": "^5.2.2"
   }
 }
